@@ -2,7 +2,9 @@
 ## AIM
 To write a python program using OpenCV to do the following image manipulations.
 i) Read, display, and write an image.
+
 ii) Access the rows and columns in an image.
+
 iii) Cut and paste a small portion of the image.
 
 ## Software Required:
@@ -19,34 +21,68 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:
-### Register Number: 
+### Developed By:PRAKASH R
+### Register Number: 212222240074
 i) #To Read,display the image
 ```
+  import cv2
+img = cv2.imread('flower.png', 0)
+resized_img = cv2.resize(img, None, fx=0.8, fy=0.8)
+cv2.imshow('212222240025', resized_img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
   
 
 ```
 ii) #To write the image
 ```
 
+import cv2
+img=cv2.imread('flower.png',0)
+cv2.imwrite('writed_walt.png',img)
+
+
 
 
 ```
 iii) #Find the shape of the Image
-```python3
+```
+
+import cv2
+img=cv2.imread('flower.png',0)
+print(img.shape)
+
 
 
 
 ```
 iv) #To access rows and columns
 
-```python3
+```import cv2
+img = cv2.imread('flower.png', 0)
+resized_img = cv2.resize(img, None, fx=0.8, fy=0.8)
+for i in range(100, 250):
+    for j in range(10, 50):
+        resized_img[i][j] = 255  
+cv2.imshow('212222240025', resized_img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 
 
 ```
 v) #To cut and paste portion of image
-```python3
+```
+
+import cv2
+img = cv2.imread('flower.png', 1)
+tag = img[300:400, 300:400]
+img[50:150, 50:150] = tag
+cv2.imshow('212222240025', img)
+cv2.waitKey(0)
+
+
 
 
 
@@ -56,25 +92,22 @@ v) #To cut and paste portion of image
 
 ### i) Read and display the image
 
-<br>
-<br>
-
-### ii)Write the image
+<br> 
+![image](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/8dbfe625-39a9-4ecc-afce-ecc269b88ccb)
 
 <br>
-<br>
 
-### iii)Shape of the Image
-
-<br>
-<br>
 
 ### iv)Access rows and columns
 <br>
+![image](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/420400d0-f7a0-44e3-87d6-b93bf6bf411a)
+
 <br>
 
 ### v)Cut and paste portion of image
 <br>
+![image](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/4c8d4201-ad78-4372-b1c4-a506f06dd18f)
+
 <br>
 
 ## Result:
