@@ -93,16 +93,15 @@ cv2.waitKey(0)
 ### i) Read and display the image
 
 <br> 
-![image](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/8dbfe625-39a9-4ecc-afce-ecc269b88ccb)
 
 <br>
 
 
 ### iv)Access rows and columns
 <br>
-![image](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/420400d0-f7a0-44e3-87d6-b93bf6bf411a)
 
-<br>
+<br>![dip ex 1 op img 1](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/2693d680-42b2-492d-86c3-d578c6d4d4dd)
+
 
 ### v)Cut and paste portion of image
 <br>
