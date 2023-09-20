@@ -94,18 +94,23 @@ cv2.waitKey(0)
 
 <br> 
 
+![dip ex 1 op img 1](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/274aaeff-a4ff-42bc-98ea-b3a843714440)
+
 <br>
 
 
 ### iv)Access rows and columns
 <br>
 
-<br>![dip ex 1 op img 1](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/2693d680-42b2-492d-86c3-d578c6d4d4dd)
+![dip ex 1 op img 2](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/ab5603e8-e33c-4cf3-9b21-bc56f812d50f)
+
+<br>
 
 
 ### v)Cut and paste portion of image
 <br>
-![image](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/4c8d4201-ad78-4372-b1c4-a506f06dd18f)
+
+![dip ex 1 op img 3](https://github.com/prakash22004108/READ-AND-WRITE-IMAGE/assets/113497032/b5979d8d-053e-44f2-bd56-2e4c1605322b)
 
 <br>
 
